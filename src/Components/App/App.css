@@ -1,0 +1,31 @@
+.App {
+   width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 57px 0 20px 0;
+   background: url(../../../src/images/background.png);
+   background-repeat: no-repeat;
+   background-size: 1440px;
+}
+
+.container {
+   margin: 0px 150px 0px 150px;
+}
+
+@media(max-width:1340px) {
+   .container {
+      margin: 0px 75px 0px 75px;
+   }
+}
+
+@media(max-width:991px) {
+   .App {
+      padding: 0px 0px 60px 0px;
+      background: #0E1014;
+   }
+
+   .container {
+      margin: 0px 16px 0px 16px;
+      background: #0E1014;
+   }
+}

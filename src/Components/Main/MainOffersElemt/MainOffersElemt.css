@@ -1,0 +1,109 @@
+.offers-box__component {
+   max-width: 150px;
+   width: 100%;
+   position: relative;
+}
+
+.offers-box__component:nth-child(1) {
+   margin-bottom: 30px;
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+
+.offers-box__component:nth-child(2) {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 2;
+   grid-row-end: 3;
+}
+
+.offers-box__component:nth-child(3) {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 3;
+}
+
+.offers-box__component:nth-child(4) {
+   display: none;
+}
+
+.offers-box__title {
+   color: #E4E5EA;
+   text-align: right;
+   font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 0.9px;
+   text-transform: uppercase;
+   margin-bottom: 6px;
+}
+
+.offers-box__text {
+   display: block;
+   color: #E4E5EA;
+   text-align: right;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+@media(max-width:991px) {
+   .offers-box__title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.65px;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+   }
+
+   .offers-box__text {
+      display: none;
+   }
+
+   .offers-box__component:nth-child(1) {
+      margin-bottom: 0px;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+   }
+
+   .offers-box__component:nth-child(2) {
+      margin-bottom: 14px;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+   }
+
+   .offers-box__component:nth-child(3) {
+      margin-bottom: 14px;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+   }
+
+   .offers-box__component:nth-child(4) {
+      display: block;
+   }
+
+   .offers-box__component::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 10px;
+      height: 1px;
+      background: linear-gradient(to right, #FCB045, #FD1D1D);
+   }
+
+   .offers-box__title {
+      text-align: left;
+      margin-left: 15px;
+   }
+}

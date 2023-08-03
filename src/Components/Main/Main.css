@@ -1,0 +1,115 @@
+.main {
+   display: flex;
+   justify-content: space-between;
+   padding: 94px 150px 124px 150px;
+}
+
+.main-caption__title {
+   color: #E4E5EA;
+   font-family: 'Inter', sans-serif;
+   font-size: 48px;
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+
+.main-caption__title_gradient {
+   background: linear-gradient(to right, #FCB047, #FF4B74);
+   color: transparent;
+   background-clip: text;
+   font-weight: 900;
+}
+
+.main-caption__sub-title {
+   color: #E4E5EA;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.main__offers-contaniner {
+   max-width: 300px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+
+.main-offers__title {
+   color: #E4E5EA;
+   text-align: right;
+   font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.main-offers__title_gradient_one {
+   background: linear-gradient(to right, #FCB045, #FD1D1D);
+   color: transparent;
+   background-clip: text;
+   font-weight: 700;
+   letter-spacing: 0.9px;
+   text-transform: uppercase;
+}
+
+.main-offers__title_gradient_two {
+   background: linear-gradient(to right, #FCB046, #FD7034);
+   color: transparent;
+   background-clip: text;
+   font-weight: 700;
+   letter-spacing: 0.9px;
+   text-transform: uppercase;
+}
+
+.main-offers__box {
+   display: grid;
+   grid-template-columns: repeat(2, 150px);
+   grid-template-rows: repeat(2, auto);
+   margin: 30px 0px 60px 0px;
+}
+
+@media(max-width:1340px) {
+   .main {
+      padding: 40px 75px 55px 75px;
+   }
+}
+
+@media(max-width:991px) {
+   .main {
+      display: block;
+      padding: 40px 16px 55px 16px;
+      background-image: url('../../images/bgForMain.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+   }
+
+   .main-caption__title {
+      font-size: 36px;
+      margin-bottom: 15px;
+   }
+
+   .main__offers-contaniner {
+      max-width: 100%;
+      display: block;
+   }
+
+   .main-offers__title {
+      margin-top: 45px;
+      text-align: left;
+   }
+
+   .main-offers__title_gradient_one {
+      text-transform: lowercase;
+   }
+
+   .main-offers__title_gradient_two {
+      text-transform: lowercase;
+   }
+
+   .main-offers__box {
+      display: grid;
+      grid-template-columns: repeat(2, 134px);
+      grid-template-rows: repeat(2, auto);
+      margin: 20px 0px 0px 0px;
+   }
+
+}

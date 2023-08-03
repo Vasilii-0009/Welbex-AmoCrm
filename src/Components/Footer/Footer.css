@@ -1,0 +1,141 @@
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   color: #E4E5EA;
+   padding-top: 45px;
+}
+
+.footer__nav-container {
+   display: flex;
+}
+
+.footer-nav__box:first-child {
+   margin-right: 98px;
+}
+
+.footer-nav__title {
+   color: #656566;
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   letter-spacing: 0.7px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.footer-nav__text {
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.footer-nav__text:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.footer-nav__elements {
+   display: flex;
+}
+
+.footer-nav__element:first-child {
+   margin-right: 52px;
+}
+
+.footer__contact-container {
+   text-align: right;
+}
+
+.footer-contact__title {
+   color: #656566;
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   letter-spacing: 0.7px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.footer-contact__tel {
+   display: block;
+   color: #E4E5EA;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+.footer-contact__link:not(:last-child) {
+   margin-right: 10px;
+}
+
+.footer-contact__address {
+   color: #E4E5EA;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 20px 0 70px 0;
+}
+
+.footer-contact__text {
+   color: #E4E5EA;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   margin-bottom: 5px;
+}
+
+.footer-contact__link-conf {
+   display: block;
+   color: #E4E5EA;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   text-decoration-line: underline;
+   cursor: pointer;
+}
+
+@media(max-width:991px) {
+   .footer {
+      display: block;
+   }
+
+   .footer__nav-container {
+      display: block;
+   }
+
+   .footer-nav__box:first-child {
+      margin: 0 0 30px 0;
+   }
+
+   .footer-nav__title {
+      font-size: 12px;
+      letter-spacing: 0.6px;
+   }
+
+   .footer__contact-container {
+      text-align: left;
+   }
+
+   .footer-nav__text {
+      font-size: 14px;
+   }
+
+   .footer-nav__elements {
+      margin-bottom: 30px;
+   }
+
+   .footer-nav__element:first-child {
+      margin-right: 44px;
+   }
+
+   .footer-contact__tel {
+      margin-bottom: 8px;
+   }
+
+   .footer-contact__address {
+      margin: 10px 0 50px 0;
+      font-size: 14px;
+   }
+
+}

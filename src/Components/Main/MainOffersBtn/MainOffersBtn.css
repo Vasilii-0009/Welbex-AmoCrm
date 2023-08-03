@@ -1,0 +1,18 @@
+.main-offers__btn {
+   width: 100%;
+   max-width: 262px;
+   background-color: #4077F3;
+   padding: 21px 35px;
+   color: #E4E5EA;
+   text-align: center;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   display: flex;
+}
+
+@media(max-width:991px) {
+   .main-offers__btn {
+      display: none;
+   }
+}
