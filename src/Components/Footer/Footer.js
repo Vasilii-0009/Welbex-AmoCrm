@@ -39,11 +39,11 @@ function Footer() {
 
          <div className='footer__contact-container footer-contact'>
             <h3 className='footer-contact__title'>Контакты</h3>
-            <a className='footer-contact__tel' href='tel:+7 555 555-55-55'>+7 555 555-55-55</a>
+            {/* <a className='footer-contact__tel' href='tel:+7 555 555-55-55'>+7 555 555-55-55</a> */}
             <div className='footer-contact__social'>
-               <a className='footer-contact__link' href='https://web.telegram.org'><img src={telegram} alt='телеграм' /></a>
+               {/* <a className='footer-contact__link' href='https://web.telegram.org'><img src={telegram} alt='телеграм' /></a>
                <a className='footer-contact__link' href='https://www.viber.com/ru/'><img src={viber} alt='вайбер' /></a>
-               <a className='footer-contact__link' href='https://www.whatsapp.com/'><img src={whatsapp} alt='ватцап' /></a>
+               <a className='footer-contact__link' href='https://www.whatsapp.com/'><img src={whatsapp} alt='ватцап' /></a> */}
             </div>
             <address className='footer-contact__address'>Москва, Путевой проезд 3с1, к 902</address>
             <p className='footer-contact__text'> &copy; WELBEX 2022. Все права защищены.</p>

@@ -15,16 +15,16 @@ function Header() {
 
          <nav className="header__nav nav">
             <ul className="nav__list">
-               <li className="nav__item"><NavLink className="nav__link" to="#" >Услуги</NavLink></li>
+               {/* <li className="nav__item"><NavLink className="nav__link" to="#" >Услуги</NavLink></li>
                <li className="nav__item"><NavLink className="nav__link" to="#">Виджеты</NavLink></li>
                <li className="nav__item"><NavLink className="nav__link" to="#">Интеграции</NavLink></li>
                <li className="nav__item"><NavLink className="nav__link" to="#">Кейсы</NavLink></li>
-               <li className="nav__item"><NavLink className="nav__link" to="#">Сертификаты</NavLink></li>
+               <li className="nav__item"><NavLink className="nav__link" to="#">Сертификаты</NavLink></li> */}
             </ul>
          </nav>
 
          <nav className="header__contact contact">
-            <ul className="contact__list">
+            {/* <ul className="contact__list">
                <li className="contact__item">
                   <a className="contact__tel" href="tel:+7 555 555-55-55">+7 555 555-55-55</a>
                </li>
@@ -37,7 +37,7 @@ function Header() {
                <li className="contact__item">
                   <a className="contact__link" href="https://www.whatsapp.com/" target="_blanck"><img src={whatsapp} alt="Ярлык ватцап" /></a>
                </li>
-            </ul>
+            </ul> */}
          </nav>
       </header>
    )
