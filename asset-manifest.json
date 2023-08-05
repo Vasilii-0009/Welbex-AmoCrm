@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5972ccb.css",
-    "main.js": "/static/js/main.9bcdfa61.js",
-    "static/media/background.png": "/static/media/background.76ad6eb5e9a6c2722f14.png",
-    "static/media/bgForMain.png": "/static/media/bgForMain.1e99c674dfd0a3cd372b.png",
-    "static/media/whatsapp.svg": "/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
-    "static/media/viber.svg": "/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
-    "index.html": "/index.html",
-    "static/media/telegram.svg": "/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
-    "main.a5972ccb.css.map": "/static/css/main.a5972ccb.css.map",
-    "main.9bcdfa61.js.map": "/static/js/main.9bcdfa61.js.map"
+    "main.css": "/Welbex-AmoCrm/static/css/main.5041c3e5.css",
+    "main.js": "/Welbex-AmoCrm/static/js/main.8117e7c9.js",
+    "static/media/background.png": "/Welbex-AmoCrm/static/media/background.76ad6eb5e9a6c2722f14.png",
+    "static/media/bgForMain.png": "/Welbex-AmoCrm/static/media/bgForMain.1e99c674dfd0a3cd372b.png",
+    "static/media/whatsapp.svg": "/Welbex-AmoCrm/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/Welbex-AmoCrm/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "index.html": "/Welbex-AmoCrm/index.html",
+    "static/media/telegram.svg": "/Welbex-AmoCrm/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.5041c3e5.css.map": "/Welbex-AmoCrm/static/css/main.5041c3e5.css.map",
+    "main.8117e7c9.js.map": "/Welbex-AmoCrm/static/js/main.8117e7c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5972ccb.css",
-    "static/js/main.9bcdfa61.js"
+    "static/css/main.5041c3e5.css",
+    "static/js/main.8117e7c9.js"
   ]
 }
